@@ -450,6 +450,7 @@ MonoBehaviour:
   objectToFind: {fileID: 100847678}
   tickImage: {fileID: 1881304332}
   listObjects: {fileID: 1413916590}
+  listRandom: {fileID: 0}
 --- !u!1 &168139678
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,6 +581,7 @@ MonoBehaviour:
   objectToFind: {fileID: 280411444}
   tickImage: {fileID: 1881304332}
   listObjects: {fileID: 1413916590}
+  listRandom: {fileID: 0}
 --- !u!61 &280411447
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -704,6 +706,7 @@ MonoBehaviour:
   objectToFind: {fileID: 290334929}
   tickImage: {fileID: 1881304332}
   listObjects: {fileID: 1413916590}
+  listRandom: {fileID: 0}
 --- !u!61 &290334932
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1359,7 +1362,7 @@ RectTransform:
   - {fileID: 1631712007}
   - {fileID: 968558850}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1981,7 +1984,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1526542077
 GameObject:
@@ -2097,6 +2100,7 @@ MonoBehaviour:
   objectToFind: {fileID: 1526542077}
   tickImage: {fileID: 1881304332}
   listObjects: {fileID: 1413916590}
+  listRandom: {fileID: 0}
 --- !u!1 &1534023307
 GameObject:
   m_ObjectHideFlags: 0
@@ -2533,6 +2537,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754574287}
   m_CullTransparentMesh: 0
+--- !u!1 &1843502962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1843502964}
+  - component: {fileID: 1843502963}
+  m_Layer: 0
+  m_Name: RandomObjectColor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1843502963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843502962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66062afe2104b34398d82a862a3c1ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToFind:
+  - {fileID: 280411448}
+  - {fileID: 1526542079}
+  - {fileID: 290334933}
+  - {fileID: 2009731509}
+  - {fileID: 2047239438}
+  - {fileID: 100847680}
+  timeForHelp: 0
+  sendHelp: 10
+--- !u!4 &1843502964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843502962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 55.84974, y: 100.35441, z: -172.8125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1864552971
 GameObject:
   m_ObjectHideFlags: 0
@@ -3080,6 +3136,7 @@ MonoBehaviour:
   objectToFind: {fileID: 2009731507}
   tickImage: {fileID: 1881304332}
   listObjects: {fileID: 1413916590}
+  listRandom: {fileID: 0}
 --- !u!1 &2030587984
 GameObject:
   m_ObjectHideFlags: 0
@@ -3271,6 +3328,7 @@ MonoBehaviour:
   objectToFind: {fileID: 2047239436}
   tickImage: {fileID: 1881304332}
   listObjects: {fileID: 1413916590}
+  listRandom: {fileID: 0}
 --- !u!1 &2101423982
 GameObject:
   m_ObjectHideFlags: 0

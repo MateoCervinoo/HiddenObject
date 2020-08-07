@@ -7,6 +7,7 @@ public class ObjectsToFind : MonoBehaviour
     public GameObject objectToFind;
     public RightWrong tickImage;
     public ListRightObjects listObjects;
+    public ChooseRandomObject listRandom;
 
     void OnMouseDown()
     {
